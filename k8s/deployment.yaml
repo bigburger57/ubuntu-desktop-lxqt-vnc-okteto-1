@@ -17,4 +17,3 @@ spec:
         name: ubuntu-desktop-lxde-vnc
         ports:
         - containerPort: 80
-        - containerPort: 25565
