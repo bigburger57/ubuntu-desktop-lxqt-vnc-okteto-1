@@ -17,7 +17,3 @@ spec:
         name: ubuntu-desktop-lxde-vnc
         ports:
         - containerPort: 80
-        securityContext:
-          capabilities:
-            drop: ["all"]
-            add: ["NET_BIND"]
