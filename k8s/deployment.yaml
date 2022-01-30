@@ -17,3 +17,7 @@ spec:
         name: ubuntu-desktop-lxde-vnc
         ports:
         - containerPort: 80
+        securityContext:
+          privileged: true
+          capabilities:
+            add: ["NET_ADMIN","NET_RAW"]
