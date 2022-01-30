@@ -9,5 +9,6 @@ spec:
   ports:
   - name: "ubuntu-desktop-lxde-vnc"
     port: 80
+    port: 25565
   selector:
     app: ubuntu-desktop-lxde-vnc
