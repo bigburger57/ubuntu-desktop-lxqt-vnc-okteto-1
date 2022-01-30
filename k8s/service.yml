@@ -11,7 +11,3 @@ spec:
     port: 80
   selector:
     app: ubuntu-desktop-lxde-vnc
-  - name: https
-    protocol: TCP
-    port: 25565
-    targetPort: 25565
