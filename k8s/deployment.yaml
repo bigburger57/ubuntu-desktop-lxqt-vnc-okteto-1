@@ -19,4 +19,5 @@ spec:
         - containerPort: 80
         securityContext:
           capabilities:
-            add: ["NET_ADMIN","NET_RAW"]
+            drop: ["all"]
+            add: ["NET_BIND"]
